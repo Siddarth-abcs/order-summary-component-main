@@ -1,4 +1,4 @@
-Result (ttps://siddarth-abcs.github.io/order-summary-component-main/)
+Result (https://siddarth-abcs.github.io/order-summary-component-main/)
 
 # Frontend Mentor - Order summary card
 
