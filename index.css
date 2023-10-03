@@ -37,7 +37,7 @@ body{
 .container{
     margin: auto;
     border-radius: 15px;
-    width: 375px;
+    width: 340px;
     background-color: var(--Verypaleblue);
 
 }
