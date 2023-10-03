@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Mulish&family=Outfit:wght@700&family=Red+Hat+Display:wght@500;900&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+/*font-family: 'Red Hat Display', sans-serif;
+ - Mobile: 375px
+- Desktop: 1440px 
+- Weights: 500, 700, 900
+- Font size (paragraph): 16px*/
+
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+
+    --Brightblue: hsl(245, 75%, 52%);
+
+    --Verypaleblue: hsl(225, 100%, 98%);
+
+    --Desaturatedblue: hsl(224, 23%, 55%);
+
+    --Darkblue: hsl(223, 47%, 23%);
+
+    --font-family: 'Red Hat Display', sans-serif;
+    --font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--Desaturatedblue);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    display: flex;
+}
+.container{
+    margin: auto;
+    border-radius: 15px;
+    width: 340px;
+    background-color: var(--Verypaleblue);
+
+}
+img{
+    border-radius: 15px 15px 0 0;
+}
+.container-box{
+    margin: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    font-weight: 900;
+}
+
+p{
+    margin: 1rem auto 2rem auto;
+    font-weight: 500;
+    color: var(--Desaturatedblue);
+}
+
+.plan{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.plan>a{
+    margin-right: 2rem;
+}
+.annualplan{
+    display: flex;
+    align-items: center;
+}
+
+.money{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sp{
+    color: var(--Desaturatedblue)
+    ;
+}
+.btn{
+    border: none;
+    width: 100%;
+    padding: .8rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.btna{
+    background-color: var(--Brightblue);
+    color: var(--Paleblue);
+}
+.btnb{
+    margin:1rem auto .5rem auto;
+}
