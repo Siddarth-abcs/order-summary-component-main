@@ -29,7 +29,7 @@
 
 body{
     height: 100vh;
-    background-color: --Paleblue: hsl(225, 100%, 94%);
+    background-color: --Brightblue: hsl(245, 75%, 52%);
     font-family: var(--font-family);
     font-size: var(--font-size);
     display: flex;
