@@ -35,6 +35,7 @@ body{
     display: flex;
 }
 .container{
+    height:80vh;
     margin: auto;
     border-radius: 15px;
     width: 340px;
